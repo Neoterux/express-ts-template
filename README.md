@@ -13,3 +13,24 @@ linter and formatter, respectively.
 
 The initial setup is based on `Yarn` and maybe be changed to another Package Manager.
 But that's your responsibility.
+
+### Commands
+
+To run the project on watch/development mode, you must execute:
+```{sh}
+$ yarn start:dev
+```
+
+To run the project on production mode:
+```{sh}
+$ yarn start
+```
+
+To only build the project but not run:
+```{sh}
+ $ yarn build
+```
+or 
+```{sh}
+$ yarn run tsc
+```
